@@ -180,9 +180,25 @@ body {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: auto;
-    grid-template-areas: ;
+    grid-template-areas: 
+    "d1Item1 d1Item2 d1Item3 d1Item4";
 }
 
+.div1-item1 {
+    grid-area: d1Item1;
+}
+
+.div1-item2 {
+    grid-area: d1Item2;
+}
+
+.div1-item3 {
+    grid-area: d1Item3;
+}
+
+.div1-item4 {
+    grid-area: d1Item4;
+}
 
 .footer {
     display: flex;
