@@ -40,6 +40,7 @@ body {
     display: flex;
     flex-direction: row;
     float: left;
+    justify-content: space-evenly;
     align-items: center;
     width: 100%;
 }
@@ -70,7 +71,9 @@ body {
     background: none;
     border: none;
     cursor: pointer;
-    padding: 1em;
+    margin-top: 1em;
+    padding-left: 1em;
+
 }
 
 #end.end-div {
@@ -106,6 +109,7 @@ body {
     display: flex;
     grid-area: main;
     background-color: brown;
+    height: 100vh;
 }
 
 .main-box {
