@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header header header header"
+    "nav main main main"
+    "nav main main main"
+    "footer footer footer footer";
+}
+
+.header {
+    display: flex;
+    padding-left: 1em;
+    padding-right: 1em;
+    grid-area: header;
+    background-color: rgb(37, 37, 37);
+    float: left;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#start.start-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.yt-logo {
+    padding-left: 1.25em;
+}
+
+#center.center-div {
+    display: flex;
+    flex-direction: row;
+    float: left;
+    align-items: center;
+    width: 100%;
+}
+
+.search {
+    float: right;
+    margin: 0.7em;
+}
+
+.search input[type="text"] {
+    width: 17em;
+    height: 2.5em;
+    border-radius: 1.5em;
+    border: 0.1em grey solid;
+}
+
+.search input[type="text"]::placeholder {
+    padding-left: 1em;
+}
+
+.search-input {
+    border: 0.2em rgb(110, 110, 110) solid;
+    border-radius: 30%;
+    background: none;
+}
+
+#end.end-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.showNav {
+    height: 0.8em;
+    width: 1.25em;
+    display: block;
+    border-top: 0.1em white solid;
+    border-bottom: 0.1em white solid;
+}
+
+.showNav::before {
+    content: '';
+    position: absolute;
+    width: 1.25em;
+    margin-top: 0.4em;
+    border-top: 0.1em white solid;
+}
+
+.nav {
+    display: flex;
+    grid-area: nav;
+    background-color: blue;
+}
+
+.main {
+    display: flex;
+    grid-area: main;
+    background-color: brown;
+}
+
+.main-box {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "navF navF navF navF"
+    "divC divC divC divC"
+}
+
+.nav-filter {
+    display: flex;
+    grid-area: navF;
+    justify-content: space-evenly;
+    float: left;
+}
+
+.div-main-contents {
+    display: flex;
+    grid-area: divC;
+}
+
+.div-main-contents-grid {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "div1 div1 div1 div1"
+    "div2 div2 div2 div2"
+    "div3 div3 div3 div3";
+}
+
+.div-main-row1 {
+    display: flex;
+    grid-area: div1;
+}
+
+.div-main-row2 {
+    display: flex;
+    grid-area: div2;
+}
+
+.div-main-row3 {
+    display: flex;
+    grid-area: div3;
+}
+
+.footer {
+    display: flex;
+    grid-area: footer;
+    background-color: blueviolet;
+}
