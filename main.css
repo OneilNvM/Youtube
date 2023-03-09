@@ -138,10 +138,11 @@ body {
     margin-left: 1em;
     padding: 0.7em;
     background: none;
-    background-image: radial-gradient(grey, #0f0f0f);
+    background-color: #272727;
     border: none;
     border-radius: 1em;
     color: white;
+    cursor: pointer;
 }
 
 .div-main-contents {
@@ -152,7 +153,7 @@ body {
 
 .div-main-contents-grid {
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 100%;
     grid-template-rows: auto;
     grid-template-areas: 
     "div1 div1 div1 div1"
@@ -174,6 +175,14 @@ body {
     display: flex;
     grid-area: div3;
 }
+
+.div-main-row1-grid {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto;
+    grid-template-areas: ;
+}
+
 
 .footer {
     display: flex;
