@@ -151,7 +151,7 @@ body {
 .div-main-contents {
     display: flex;
     height: 80%;
-    padding: 1em;
+    margin: 1em;
     grid-area: divC;
 }
 
