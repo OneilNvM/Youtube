@@ -118,16 +118,14 @@ body {
 }
 
 .main {
-    display: flex;
     grid-area: main;
     background-color: #0f0f0f;
-    height: 100vh;
 }
 
 .main-box {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 10% 90%;
+    grid-template-rows: auto auto;
     grid-template-areas: 
     "navF navF"
     "divC divC"
@@ -202,9 +200,26 @@ body {
     "d1Item1 d1Item2 d1Item3 d1Item4";
 }
 
+.div-main-row2-grid {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "d2Item1 d2Item2 d2Item3 d2Item4";
+}
+
+.div-main-row3-grid {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "d3Item1 d3Item2 d3Item3 d3Item4";
+}
+
 .style-item-margin {
     margin-left: 0.5em;
     margin-right: 0.5em;
+    margin-bottom: 1em;
 }
 
 .div1-item1 {
@@ -213,15 +228,55 @@ body {
 }
 
 .div1-item2 {
+    display: flex;
     grid-area: d1Item2;
 }
 
 .div1-item3 {
+    display: flex;
     grid-area: d1Item3;
 }
 
 .div1-item4 {
+    display: flex;
     grid-area: d1Item4;
+}
+
+.div2-item1 {
+    display: flex;
+    grid-area: d2Item1;
+}
+
+.div2-item2 {
+    display: flex;
+    grid-area: d2Item2;
+}
+
+.div2-item3 {
+    display: flex;
+    grid-area: d2Item3;
+}
+
+.div2-item4 {
+    display: flex;
+    grid-area: d2Item4;
+}
+
+.div3-item1 {
+    display: flex;
+    grid-area: d3Item1;
+}
+
+.div3-item2 {
+    grid-area: d3Item2;
+}
+
+.div3-item3 {
+    grid-area: d3Item3;
+}
+
+.div3-item4 {
+    grid-area: d3Item4;
 }
 
 .div-container-style {
@@ -313,7 +368,6 @@ body {
 }
 
 .footer {
-    display: flex;
     grid-area: footer;
     background-color: blueviolet;
 }
