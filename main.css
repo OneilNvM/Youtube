@@ -55,10 +55,8 @@ body {
     height: 2.5em;
     border-radius: 1.5em;
     border: 0.1em grey solid;
-}
-
-.search input[type="text"]::placeholder {
     padding-left: 1em;
+    color: white;
 }
 
 .search-input {
