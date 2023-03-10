@@ -151,6 +151,7 @@ body {
 .div-main-contents {
     display: flex;
     height: 80%;
+    padding: 1em;
     grid-area: divC;
 }
 
@@ -187,7 +188,13 @@ body {
     "d1Item1 d1Item2 d1Item3 d1Item4";
 }
 
+.style-item-margin {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
 .div1-item1 {
+    display: flex;
     grid-area: d1Item1;
 }
 
@@ -201,6 +208,12 @@ body {
 
 .div1-item4 {
     grid-area: d1Item4;
+}
+
+
+.div-container-style {
+    display: flex;
+
 }
 
 .footer {
