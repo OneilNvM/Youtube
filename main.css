@@ -46,6 +46,19 @@ body {
     width: 100%;
 }
 
+#end.end-div {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: end;
+}
+
+.profile-size{
+    border-radius: 100%;
+    max-width: 60%;
+    height: auto;
+}
+
 .search {
     float: right;
     margin: 0.7em;
