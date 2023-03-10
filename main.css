@@ -143,6 +143,11 @@ body {
     border-radius: 1em;
     color: white;
     cursor: pointer;
+    transition-duration: 500ms;
+}
+
+.nav-filter button[name="filter"]:hover {
+    background-color: #414141;
 }
 
 .div-main-contents {
