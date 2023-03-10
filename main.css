@@ -12,6 +12,7 @@ body {
     "nav main main main"
     "nav main main main"
     "footer footer footer footer";
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -210,15 +211,82 @@ body {
     grid-area: d1Item4;
 }
 
+.div-container-style {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.yt-thumbnail a{
+    display: flex;
+}
+
+.yt-details {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5em;
+}
+
+.yt-meta-details {
+    display: block;
+}
+
+.yt-title {
+    margin-top: 0.5em;
+    color: white;
+}
+
+.yt-title a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.yt-channel-logo a{
+    display: flex;
+    justify-content: start;
+}
+
+.yt-channel-name {
+    display: flex;
+    margin-top: 0.5em;
+    color: #414141;
+}
+
+.yt-channel-name a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.yt-meta-data {
+    display: flex;
+    flex-direction: row;
+    color: #414141;
+}
+
+.yt-video-views {
+    display: flex;
+}
+
+.yt-video-upload-time {
+    display: flex;
+    margin-left: 0.5em;
+}
+
+.style-meta-data-font-size {
+    font-size: 0.8em;
+}
 
 .style-img-size {
     max-width: 100%;
     height: auto;
+    border-radius: 1em;
 }
 
-.div-container-style {
-    display: flex;
-
+.style-img-size-logo {
+    max-width: 60%;
+    height: auto;
+    margin-top: 0.4em;
+    border-radius: 100%;
 }
 
 .footer {
