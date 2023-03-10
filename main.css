@@ -211,6 +211,11 @@ body {
 }
 
 
+.style-img-size {
+    max-width: 100%;
+    height: auto;
+}
+
 .div-container-style {
     display: flex;
 
