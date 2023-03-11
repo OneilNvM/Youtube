@@ -503,5 +503,6 @@ body::-webkit-scrollbar-track {
 
 .footer {
     grid-area: footer;
-    background-color: blueviolet;
+    background-color: #0f0f0f;
+    color: rgb(51, 51, 51);
 }
