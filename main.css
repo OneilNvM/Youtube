@@ -165,34 +165,53 @@ body {
     padding-right: 0.4em;
 }
 
-.div-nav-channel {
+.div-nav-home:hover {
     background-color: #414141;
+}
+
+.div-nav-channel {
     border-radius: 1em;
     padding-right: 0.4em;
+}
+
+.div-nav-channel:hover {
+    background-color: #414141;
 }
 
 .div-nav-history {
-    background-color: #414141;
     border-radius: 1em;
     padding-right: 0.4em;
+}
+
+.div-nav-history:hover {
+    background-color: #414141;
 }
 
 .div-nav-liked {
-    background-color: #414141;
     border-radius: 1em;
     padding-right: 0.4em;
+}
+
+.div-nav-liked:hover {
+    background-color: #414141;
 }
 
 .div-nav-settings {
-    background-color: #414141;
     border-radius: 1em;
     padding-right: 0.4em;
 }
 
-.div-nav-send-feedback {
+.div-nav-settings:hover {
     background-color: #414141;
+}
+
+.div-nav-send-feedback {
     border-radius: 1em;
     padding-right: 0.4em;
+}
+
+.div-nav-send-feedback:hover {
+    background-color: #414141;
 }
 
 .style-nav-anchor {
@@ -202,8 +221,6 @@ body {
 }
 
 .style-nav-img {
-    background: none;
-    border: none;
     max-width: 1.5em;
     height: auto;
     padding: 1em;
@@ -213,6 +230,7 @@ body {
     display: flex;
     align-items: center;
     color: white;
+    font-size: 0.85em;
 }
 
 .main {
