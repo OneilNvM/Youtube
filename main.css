@@ -115,12 +115,13 @@ body {
     display: flex;
     grid-area: nav;
     background-color: #0f0f0f;
+    overflow: auto;
 }
 
 .nav-box {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: auto;
     grid-template-areas: 
     "dnc1"
     "dnc2"
@@ -130,6 +131,7 @@ body {
 .div-nav-container1 {
     display: flex;
     flex-direction: column;
+    margin-left: 1em;
     justify-content: space-evenly;
     padding: 0.5em;
     grid-area: dnc1;
@@ -138,6 +140,7 @@ body {
 .div-nav-container2 {
     display: flex;
     margin-top: 0.7em;
+    margin-left: 1em;
     border-top: 0.1em grey solid;
     flex-direction: column;
     justify-content: space-evenly;
@@ -148,11 +151,48 @@ body {
 .div-nav-container3 {
     display: flex;
     margin-top: 0.7em;
+    margin-left: 1em;
     border-top: 0.1em grey solid;
     flex-direction: column;
     justify-content: space-evenly;
     padding: 0.5em;
     grid-area: dnc3;
+}
+
+.div-nav-home {
+    background-color: #414141;
+    border-radius: 1em;
+    padding-right: 0.4em;
+}
+
+.div-nav-channel {
+    background-color: #414141;
+    border-radius: 1em;
+    padding-right: 0.4em;
+}
+
+.div-nav-history {
+    background-color: #414141;
+    border-radius: 1em;
+    padding-right: 0.4em;
+}
+
+.div-nav-liked {
+    background-color: #414141;
+    border-radius: 1em;
+    padding-right: 0.4em;
+}
+
+.div-nav-settings {
+    background-color: #414141;
+    border-radius: 1em;
+    padding-right: 0.4em;
+}
+
+.div-nav-send-feedback {
+    background-color: #414141;
+    border-radius: 1em;
+    padding-right: 0.4em;
 }
 
 .style-nav-anchor {
@@ -161,7 +201,17 @@ body {
     color: inherit;
 }
 
+.style-nav-img {
+    background: none;
+    border: none;
+    max-width: 1.5em;
+    height: auto;
+    padding: 1em;
+}
+
 .style-nav-text {
+    display: flex;
+    align-items: center;
     color: white;
 }
 
