@@ -114,7 +114,55 @@ body {
 .nav {
     display: flex;
     grid-area: nav;
-    background-color: blue;
+    background-color: #0f0f0f;
+}
+
+.nav-box {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    "dnc1"
+    "dnc2"
+    "dnc3";
+}
+
+.div-nav-container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0.5em;
+    grid-area: dnc1;
+}
+
+.div-nav-container2 {
+    display: flex;
+    margin-top: 0.7em;
+    border-top: 0.1em grey solid;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0.5em;
+    grid-area: dnc2;
+}
+
+.div-nav-container3 {
+    display: flex;
+    margin-top: 0.7em;
+    border-top: 0.1em grey solid;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0.5em;
+    grid-area: dnc3;
+}
+
+.style-nav-anchor {
+    display: flex;
+    text-decoration: none;
+    color: inherit;
+}
+
+.style-nav-text {
+    color: white;
 }
 
 .main {
@@ -162,7 +210,7 @@ body {
 
 .div-main-contents {
     display: flex;
-    height: 80%;
+    height: auto;
     margin: 1em;
     grid-area: divC;
 }
